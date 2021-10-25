@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Gaijira/mailboxer/issues"
   },
-  "homepage": "https://github.com/Gaijira/mailboxer#readme"
+  "homepage": "https://github.com/Gaijira/mailboxer#readme",
+  "dependencies": {
+    "babel-jest": "^27.2.5",
+    "jest-cli": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8"
+  }
 }
